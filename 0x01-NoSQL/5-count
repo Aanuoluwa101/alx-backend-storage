@@ -1,0 +1,4 @@
+// Displays the number of documents in the collection school
+const cursor = db.school.find()
+cursor.length()
+
